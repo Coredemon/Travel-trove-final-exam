@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <header>
+
+        <div class="logo">
+          <img src="./Logo.PNG" alt="">
+        </div>
+        
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="Hotel.html">Hotel</a>
+          <a href="Reviews+.html">Reviews+</a>
+        </nav>
+    
+      <div class="icons">
+    
+          <a href="#sidenav">
+              <ion-icon name="grid-outline"></ion-icon>
+          </a>
+    
+      </div>
+    
+          
+    </header>
+    
+    <div class="banner">
+            <div class="content">
+                <h2>Post Your Reviews!</h2>
+                <h3>Check out And Post Your feedbacks</h3>
+            </div>
+    </div>
+
+    
+    <div id="gallery">
+        <h2 class="title">Visitors Activity</h2>
+        <div class="gallery-wrapper">
+          <img src="./Activity1.jpg" alt="">
+          <img src="./Activity2.jpg" alt="">
+          <img src="./Activity3.jpg" alt="">
+          <img src="./Activity4.jpg" alt="">
+          <img src="./Activity5.jpg" alt="">
+  
+        </div>
+    </div>
+
+
+    <div id="Review">
+      <h2 class="section-title">Reviews</h2>
+
+      <div class="review-wrapper">
+          <div class="review">
+              <h4>Jamal</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, nostrum ex. Similique, libero sunt. Aliquam doloremque eligendi assumenda vero, expedita placeat libero officiis voluptatem perspiciatis reprehenderit blanditiis voluptatum, veritatis ducimus?</p>
+
+              <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+              </div>
+              <h3>Alright</h3>
+          </div>
+
+          <div class="review">
+              <h4>John</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, nostrum ex. Similique, libero sunt. Aliquam doloremque eligendi assumenda vero, expedita placeat libero officiis voluptatem perspiciatis reprehenderit blanditiis voluptatum, veritatis ducimus?</p>
+
+              <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+              </div>
+              <h3>The Best</h3>
+          </div>
+
+          <div class="review">
+              <h4>Kevin</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, nostrum ex. Similique, libero sunt. Aliquam doloremque eligendi assumenda vero, expedita placeat libero officiis voluptatem perspiciatis reprehenderit blanditiis voluptatum, veritatis ducimus?</p>
+
+              <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+              </div>
+              <h3>Okay</h3>
+          </div>
+
+          <div class="review">
+              <h4>Scarlet</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, nostrum ex. Similique, libero sunt. Aliquam doloremque eligendi assumenda vero, expedita placeat libero officiis voluptatem perspiciatis reprehenderit blanditiis voluptatum, veritatis ducimus?</p>
+
+              <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+              </div>
+              <h3>Bad</h3>
+          </div>
+
+          <div class="review">
+              <h4>Liza</h4>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, nostrum ex. Similique, libero sunt. Aliquam doloremque eligendi assumenda vero, expedita placeat libero officiis voluptatem perspiciatis reprehenderit blanditiis voluptatum, veritatis ducimus?</p>
+
+              <div class="rating">
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star"></ion-icon>
+                  <ion-icon name="star-outline"></ion-icon>
+              </div>
+              <h3>Amazing</h3>
+          </div>
+
+          
+      </div>
+    </div>
+
+    <div id="Place_Review">
+     
+      <h2 class="title">Submit review here</h2>
+      
+      <form action="https://formspree.io/f/xoqgbegn" method="POST">     
+        <div class="group">
+          <Label>Feedbacks</Label>
+          <textarea rows="5" cols="30" name="mytextarea" id="mytextarea" placeholder="Enter your Feedback here"></textarea>
+        </div>
+
+        
+        <div class="group">
+          <label>Amount of stars</label>
+          <input type="number" name="amount-of-stars" id="amount-of-days" placeholder="Enter Amount of stars" min="1" max="5">
+        </div>
+
+        <div class="group">
+          <button type="submit">Submit</button>
+        </div>
+
+
+
+      </form>
+      
+    </div>
+
+    
+    <footer>
+      <p>&copy; 2024 TravelTrove. All rights reserved.</p>
+    </footer>
+    
+    
+</body>
+</html>

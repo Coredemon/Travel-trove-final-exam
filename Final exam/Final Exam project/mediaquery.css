@@ -1,0 +1,46 @@
+/* Laptop */
+@media only screen and (min-width: 1200px) {
+  .Spots {
+     grid-template-columns: 1fr 1fr;
+   }
+  .spot {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     gap: 20px;
+     align-items: center;
+     padding: 20px;
+   }
+  .spot img {
+     grid-column: 1;
+     width: 300px;
+     height: 200px;
+     object-fit: cover;
+     border-radius: 20px;
+     margin: 20px;
+   }
+  .spot.text {
+     grid-column: 2;
+     padding: 20px;
+   }
+ }
+ 
+ 
+ /* Tablet */
+ @media only screen and (max-width: 834px) {
+  .Spots{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding: 20px;
+   }
+  .Spots img{
+     width: 100%;
+     height: 150px;
+     object-fit: cover;
+     border-radius: 20px;
+     margin: 20px;
+   }
+  .Spots.text{
+     padding: 20px;
+   }
+ }

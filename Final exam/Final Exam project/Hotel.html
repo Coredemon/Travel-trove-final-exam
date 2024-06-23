@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaquery.css">
+
+</head>
+<body>
+    <header>
+
+      <div class="logo">
+        <img src="./Logo.PNG" alt="">
+      </div>
+      
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="Hotel.html">Hotel</a>
+        <a href="Reviews+.html">Reviews+</a>
+      </nav>
+  
+    <div class="icons">
+  
+        <a href="#sidenav">
+            <ion-icon name="grid-outline"></ion-icon>
+        </a>
+  
+    </div>
+    
+    
+    </header>
+
+    <div class="banner">
+      <div class="content">
+          <h2>Escape to Luxury!</h2>
+          <h3>Experience unforgettable stays at our premier hotels</h3>
+      </div>
+  </div>
+
+    <div id="Hotels">
+
+      <h2 class="Hotel-title">The best Hotels for you!</h2>
+
+        <div class="Hotels-wrapper">
+
+          <div class="hotel">
+            <img src="./The Cosmics.jpg" alt="">
+            <h5>The-Cosmic</h5>
+            <p>Experience celestial luxury at "The Cosmic" for $345 a night. Enjoy starlit rooms, gourmet dining, and spa treatments. Dive into stargazing tours or relax by the infinity pool. Book now for a cosmic getaway.</p>
+          </div>
+
+          <div class="hotel">
+            <img src="./The Peninsula.jpg" alt="">
+            <h5>The Peninsula</h5>
+            <p>The Peninsula offers luxury, elegance, impeccable service, and sophisticated accommodations for $456 a night. Indulge in gourmet dining, spa experiences, and breathtaking views for an unforgettable stay.</p>
+          </div>
+
+          <div class="hotel">
+            <img src="./Gallery of Manaus Hotel.jpg" alt="">
+            <h5>Gallery of Manaus Hotel</h5>
+            <p>Experience cultural charm, art galleries, and modern comfort for $229 a night. Discover exquisite dining, serene ambiance, and impeccable service in the heart of Manaus..</p>
+          </div>
+
+          <div class="hotel">
+            <img src="./Bamboo Resort.jpg" alt="">
+            <h5>Bamboo Resort</h5>
+            <p>Escape to tranquility and natural beauty for $182 a night. Nestled among lush bamboo groves, enjoy eco-friendly luxury, rejuvenating spa treatments, and sustainable practices for a serene retreat.</p>
+          </div>
+
+          <div class="hotel">
+            <img src="./Royal Cliff Beach Hotel.jpg" alt="">
+            <h5>Royal Cliff Beach Hotel</h5>
+            <p> Dive into luxury overlooking pristine beaches for $986 a night. Indulge in world-class dining, rejuvenating spa experiences, and impeccable service at this iconic beachfront destination.</p>
+          </div>
+
+          <div class="hotel">
+            <img src="./The Pool Resort.jpg" alt="">
+            <h5>The Pool Resort</h5>
+            <p>Immerse yourself in relaxation and luxury for $783 a night. Enjoy stylish accommodations, refreshing poolside retreats, gourmet dining, and personalized service for a rejuvenating stay.</p>
+          </div>
+
+    
+        </div>
+    
+    </div>
+
+    <div id="order">
+     
+      <h2 class="title">Book here</h2>
+      
+      <form action="https://formspree.io/f/xoqgbegn" method="POST">     
+        <div class="group">
+          <label>Phone</label>
+          <input type="number" name="Phone number" id="Phone-number" placeholder="Enter your Phone number">
+        </div>
+  
+        <div class="group">
+          <label>Hotel name </label>
+          <select name="product" id="product">
+            <option value="">Select a hotel</option>
+            <option value="Theseason,Malaysia">Langkawi,Malaysia</option>
+            <option value="High,Malaysia">high,Malaysia</option>
+            <option value="Langkawi,Malaysia">Langkawi,Malaysia</option>
+          </select>
+        </div>
+
+        <div class="group">
+          <label>Amount of days</label>
+          <input type="number" name="amount-of-days" id="amount-of-days" placeholder="Enter Amount of days">
+        </div>
+
+        <div class="group">
+          <label>Amount of people</label>
+          <input type="number" name="amount-of-people" id="amount-of-people" placeholder="Enter Amount of people">
+        </div>
+
+        <div class="group">
+          <label>Date</label>
+          <input type="date" name="Date" id="Date">
+        </div>
+  
+        <div class="group">
+          <label>Email address</label>
+          <input type="email" name="email" id="email" placeholder="Enter your email">
+        </div>
+  
+        <div class="group">
+          <button type="submit">Book Now</button>
+        </div>
+      </form>
+      
+    </div>
+
+    <footer>
+      <p>&copy; 2024 TravelTrove. All rights reserved.</p>
+    </footer>
+
+
+</body>
+</html>
